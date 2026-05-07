@@ -1,0 +1,35 @@
+.dialyForcast {
+  margin-top: 35px;
+  h1 {
+    font-size: 25px;
+    margin-bottom: 15px;
+    font-weight: 500;
+  }
+  .forcastContainer {
+    display: flex;
+    width: 100%;
+    gap: 20px;
+    .forcastCard {
+      border-radius: 20px;
+      padding: 20px;
+      width: 100%;
+      border: 1px solid #303051;
+      background-color: #25253e;
+      h3 {
+        font-size: 25px;
+        text-align: center;
+      }
+      img {
+        width: 100px;
+        height: 80px;
+        margin: 0 auto;
+      }
+      .forcastTemp {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 10px;
+      }
+    }
+  }
+}

@@ -1,0 +1,72 @@
+.header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  height: 50px;
+  position: relative;
+  z-index: 1000;
+  .dropdown {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    .dropdownTab {
+      background: #25253f;
+      cursor: pointer;
+      border-radius: 8px;
+      display: flex;
+      padding: 6px 10px;
+      width: fit-content;
+      align-items: center;
+      margin-bottom: 10px;
+      .gearIcon {
+        width: 16px;
+        height: 16px;
+        margin-right: 8px;
+      }
+    }
+    .dropdownContent {
+      background: #25253f;
+      border-radius: 8px;
+      padding: 10px 15px;
+      border: 0.5px solid #ffffff85;
+      // font-weight: 500;
+      width: 250px;
+      .heading {
+        color: #efefff;
+        margin-bottom: 5px;
+        font-size: 16px;
+      }
+      .option {
+        margin-left: -4px;
+        color: #efefff;
+        padding: 6px 8px 6px 6px;
+        border-radius: 8px;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        gap: 6px;
+        margin-bottom: 6px;
+        img {
+          width: 16px;
+          height: 16px;
+        }
+        &:hover {
+          background: #302e49;
+        }
+      }
+      .bgHover {
+        background: #302e49;
+      }
+      span {
+        color: #aeaec3;
+        font-size: 12px;
+      }
+      hr {
+        margin: 6px 0;
+      }
+    }
+    // AEAEC3
+  }
+}

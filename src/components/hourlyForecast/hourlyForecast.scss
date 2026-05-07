@@ -1,0 +1,72 @@
+.hourlyForecast {
+  background: #25253f;
+  border-radius: 20px;
+  padding: 20px;
+  .hourlyForecastDropdown {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    h2 {
+      height: 25px;
+      margin-top: 8px;
+      font-size: 18px;
+      font-weight: 600;
+    }
+    .hFdropDown {
+      height: 25px;
+      overflow: visible;
+      position: relative;
+      width: 100px;
+      .dropdownTab {
+        background: #3c3b5d;
+        border-radius: 8px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 4px 12px 4px 15px;
+        gap: 5px;
+        cursor: pointer;
+        width: fit-content;
+      }
+      .hFOption {
+        background: #25253f;
+        padding: 6px;
+        z-index: 1000;
+        min-width: 150px;
+
+        border-radius: 8px;
+        margin-top: 4px;
+        border: 1px solid #383753;
+        p {
+          padding: 5px 10px;
+          cursor: pointer;
+          border-radius: 8px;
+
+          &:hover {
+            background: #3c3b5d;
+          }
+        }
+      }
+    }
+  }
+  .hFData {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    background: #302e49;
+    border: 1px solid #383753;
+    border-radius: 8px;
+    padding: 0px 10px;
+    margin-top: 15px;
+    div {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      img {
+        width: 40px;
+        height: 40px;
+      }
+    }
+  }
+}
