@@ -1,70 +1,47 @@
-# Getting Started with Create React App
+🌦️ Weather Information Dashboard
+📌 https://69fc1de414401bf4bab5e035--weatherinformationdashboard.netlify.app/
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The Weather Information Dashboard is a React-based application that fetches and displays real-time weather data using external weather APIs. The project focuses heavily on mastering React’s useEffect() hook for handling side effects such as API calls, event listeners, timers, and cleanup operations.
 
-## Available Scripts
+This application demonstrates how to build predictable and optimized React applications while working with asynchronous operations and dynamic UI updates.
 
-In the project directory, you can run:
+🚀 Features
+🌍 Weather Search
+Search weather by city name
+Fetch real-time weather information
+Dynamic weather updates
+📊 Weather Details
 
-### `npm start`
+Displays:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Temperature
+Weather condition
+Humidity
+Wind speed
+Day/Night status
+Feels-like temperature
+⚡ Side Effect Management
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Implemented using useEffect():
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+API fetching on component mount
+Fetching on city change
+Conditional side effects
+Multiple useEffect hooks
+Cleanup functions
+🔄 Advanced Features
+Loading state handling
+Error handling
+Auto-refresh weather data
+Optional debounced API requests
+Cleanup for timers and event listeners
+🧠 React Concepts Used
+React Functional Components
+useState
+useEffect
+Conditional Rendering
+Controlled Inputs
+Async/Await
+API Fetching
+Cleanup Functions
+Dependency Arrays
