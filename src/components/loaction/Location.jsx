@@ -13,12 +13,12 @@ const Location = (selectedLocation) => {
         <div className='locationNameDeg'>
           <div>
             <h1 className='locName'>
-              {selectedLocation?.locationdata?.cordinates?.locationName},
+              {selectedLocation?.locationdata?.cordinates?.locationName},{' '}
               {selectedLocation?.locationdata?.cordinates?.locationName !==
                 selectedLocation?.locationdata?.cordinates?.district &&
                 ` ${selectedLocation?.locationdata?.cordinates?.district},`}
               <br />
-              {selectedLocation?.locationdata?.cordinates?.state},
+              {selectedLocation?.locationdata?.cordinates?.state},{' '}
               {selectedLocation?.locationdata?.cordinates?.country}
             </h1>
             <p className='date'>

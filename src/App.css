@@ -3,8 +3,7 @@
   max-width: none;
   font-family: 'DMSans';
   font-weight: 500;
-  padding-left: 1rem;
-  padding-right: 1rem;
+
   margin-left: auto;
   margin-right: auto;
 }
@@ -34,6 +33,8 @@
 @media (min-width: 1400px) {
   .app-container {
     max-width: 1320px;
+    padding-left: 1rem;
+    padding-right: 1rem;
   }
 }
 .locationData {

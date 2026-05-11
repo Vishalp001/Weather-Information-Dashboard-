@@ -8,6 +8,9 @@
     background-size: cover;
     background-position: center;
     background-repeat: 'no-repeat';
+    @media (max-width: 768px) {
+      height: fit-content;
+    }
     .locationNameDeg {
       padding: 30px;
       display: flex;
@@ -28,22 +31,29 @@
         font-size: 100px;
         font-weight: bold;
         font-style: italic;
+        @media (max-width: 768px) {
+          font-size: 55px;
+        }
       }
     }
   }
   .locationData {
     margin-top: 20px;
     display: flex;
-    flex-wrap: wrap;
-    align-items: center;
+    // flex-wrap: wrap;
+    align-items: flex-start;
     justify-content: space-between;
-    gap: 25px;
+    gap: 10px;
+    @media (max-width: 768px) {
+      flex-wrap: wrap;
+    }
     .dataContainer {
       border: 1px solid #3a3a5e;
       border-radius: 20px;
       background: #25253f;
       padding: 30px;
       width: 100%;
+
       .name {
         font-size: 25px;
         color: #d4deff;
