@@ -24,9 +24,7 @@
       justify-content: center;
       align-items: center;
       gap: 10px;
-      @media (max-width: 600px) {
-        flex-wrap: wrap;
-      }
+
       .searchContainer {
         background: #25253f;
         border-radius: 10px;
