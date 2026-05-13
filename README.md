@@ -1,5 +1,5 @@
 🌦️ Weather Information Dashboard
-📌 https://69fc1de414401bf4bab5e035--weatherinformationdashboard.netlify.app/
+📌 https://weatherinformationdashboard.netlify.app/
 
 The Weather Information Dashboard is a React-based application that fetches and displays real-time weather data using external weather APIs. The project focuses heavily on mastering React’s useEffect() hook for handling side effects such as API calls, event listeners, timers, and cleanup operations.
 
